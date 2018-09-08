@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:thingy-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,14 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:7402 U?
-U 1 1 5B93AAD5
-P 5500 3450
-F 0 "U?" H 5500 3775 50  0000 C CNN
-F 1 "7402" H 5500 3684 50  0000 C CNN
-F 2 "" H 5500 3450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 5500 3450 50  0001 C CNN
-	1    5500 3450
+L thingy:2x18650_holder U1
+U 1 1 5B93B1E9
+P 4750 3500
+F 0 "U1" H 4750 3825 50  0000 C CNN
+F 1 "2x18650_holder" H 4750 3734 50  0000 C CNN
+F 2 "thingy:2x18650_holder" V 4750 3500 50  0001 C CNN
+F 3 "" V 4750 3500 50  0001 C CNN
+	1    4750 3500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

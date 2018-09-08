@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# thingy:2x18650_holder
+# 2x18650_holder
 #
-DEF thingy:2x18650_holder U 0 40 Y Y 1 F N
+DEF 2x18650_holder U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
-F1 "thingy:2x18650_holder" 0 -200 50 H V C CNN
+F1 "2x18650_holder" 0 -200 50 H V C CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST

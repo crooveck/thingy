@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CRVCK)(type Legacy)(uri /home/crooveck/KICAD/test/CRVCK.lib)(options "")(descr "")(disabled))
+  (lib (name thingy)(type Legacy)(uri /home/crooveck/workspace/thingy/pcb/libs/thingy.lib)(options "")(descr ""))
+)
