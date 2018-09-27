@@ -490,4 +490,54 @@ Wire Notes Line
 	7500 800  800  800 
 Text Notes 5800 3050 0    79   ~ 0
 powering module & battery\n
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5BABD89F
+P 3900 4250
+F 0 "SW?" H 3900 4535 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 3900 4444 50  0000 C CNN
+F 2 "" H 3900 4250 50  0001 C CNN
+F 3 "" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RF_Module:ESP-07 U?
+U 1 1 5BAD4E4E
+P 3900 5500
+F 0 "U?" H 3900 6478 50  0000 C CNN
+F 1 "ESP-07" H 3900 6387 50  0000 C CNN
+F 2 "RF_Module:ESP-07" H 3900 5500 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 3550 5600 50  0001 C CNN
+	1    3900 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4450 3900 4700
+$Comp
+L power:VCC #PWR?
+U 1 1 5BAD9D59
+P 3800 3850
+F 0 "#PWR?" H 3800 3700 50  0001 C CNN
+F 1 "VCC" H 3817 4023 50  0000 C CNN
+F 2 "" H 3800 3850 50  0001 C CNN
+F 3 "" H 3800 3850 50  0001 C CNN
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3850 3800 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5BADC7AF
+P 3900 6400
+F 0 "#PWR?" H 3900 6150 50  0001 C CNN
+F 1 "GND" H 3905 6227 50  0000 C CNN
+F 2 "" H 3900 6400 50  0001 C CNN
+F 3 "" H 3900 6400 50  0001 C CNN
+	1    3900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6200 3900 6400
 $EndSCHEMATC
