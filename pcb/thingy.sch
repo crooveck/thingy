@@ -485,7 +485,7 @@ U 1 1 5BABD89F
 P 3900 4250
 F 0 "SW1" H 3900 4535 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 3900 4444 50  0000 C CNN
-F 2 "" H 3900 4250 50  0001 C CNN
+F 2 "thingy:MSS22D18" H 3900 4250 50  0001 C CNN
 F 3 "" H 3900 4250 50  0001 C CNN
 	1    3900 4250
 	0    -1   -1   0   
@@ -825,4 +825,31 @@ Wire Wire Line
 	6550 5150 6650 5150
 Wire Wire Line
 	6650 5250 6550 5250
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5BB6A3AF
+P 6850 5900
+F 0 "J4" H 7100 5600 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 7400 6100 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6850 5900 50  0001 C CNN
+F 3 "~" H 6850 5900 50  0001 C CNN
+	1    6850 5900
+	-1   0    0    1   
+$EndComp
+Text GLabel 6550 5700 0    50   Input ~ 0
+VCC
+Text GLabel 6550 5800 0    50   Input ~ 0
+GND
+Text GLabel 6550 5900 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 6550 6000 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	6550 5700 6650 5700
+Wire Wire Line
+	6650 5800 6550 5800
+Wire Wire Line
+	6550 5900 6650 5900
+Wire Wire Line
+	6650 6000 6550 6000
 $EndSCHEMATC
