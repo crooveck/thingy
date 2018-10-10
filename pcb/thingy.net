@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/crooveck/workspace/thingy/pcb/thingy.sch)
-    (date "nie, 7 paź 2018, 22:29:05")
+    (source /home/p.tomaszews2/workspace-edu/thingy/pcb/thingy.sch)
+    (date "Wed 10 Oct 2018 12:28:07 PM CEST")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -388,7 +388,7 @@
     (library (logical Switch)
       (uri /usr/share/kicad/library/Switch.lib))
     (library (logical thingy)
-      (uri /home/crooveck/workspace/thingy/pcb/libs/thingy.lib)))
+      (uri /home/p.tomaszews2/workspace-edu/thingy/pcb/libs/thingy.lib)))
   (nets
     (net (code 1) (name "Net-(R6-Pad2)")
       (node (ref SW2) (pin 2))
