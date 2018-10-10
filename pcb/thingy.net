@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/p.tomaszews2/workspace-edu/thingy/pcb/thingy.sch)
-    (date "Wed 10 Oct 2018 12:28:07 PM CEST")
+    (date "Wed 10 Oct 2018 02:38:56 PM CEST")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
