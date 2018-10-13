@@ -5,7 +5,7 @@
     (drawings 6)
     (tracks 213)
     (zones 0)
-    (modules 29)
+    (modules 30)
     (nets 35)
   )
 
@@ -177,7 +177,7 @@
     (add_net GND)
   )
 
-  (module thingy:2x18650_holder (layer F.Cu) (tedit 5BC08585) (tstamp 5BBC6048)
+  (module thingy:2x18650_holder (layer F.Cu) (tedit 5BBE4518) (tstamp 5BBC6048)
     (at 120.256001 108.521001)
     (path /5B93B1E9)
     (fp_text reference U3 (at 0 -40.69) (layer F.SilkS) hide
@@ -1342,12 +1342,12 @@
     )
   )
 
-  (module thingy:OSHW-Logo (layer F.Cu) (tedit 5BC085A2) (tstamp 5BC0BA4D)
+  (module thingy:OSHW-Logo (layer F.Cu) (tedit 5BC085D7) (tstamp 5BC0BA4D)
     (at 132.83 78.62)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
-    (fp_text reference REF** (at 12.06 -0.7) (layer F.Fab) hide
+    (fp_text reference REF** (at 12.06 -0.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value OSHW-Logo2_7.3x6mm_SilkScreen (at 21.08 -3.7) (layer F.Fab) hide
@@ -1439,7 +1439,7 @@
       (xy -0.368825 -2.504986) (xy -0.353867 -2.58474) (xy -0.341209 -2.651319) (xy -0.331814 -2.699653)
       (xy -0.326646 -2.724675) (xy -0.326556 -2.725057) (xy -0.323411 -2.735701) (xy -0.317296 -2.743738)
       (xy -0.304547 -2.749533) (xy -0.2815 -2.753453) (xy -0.244491 -2.755865) (xy -0.189856 -2.757135)
-      (xy -0.113933 -2.757629) (xy -0.013056 -2.757714) (xy 0 -2.757714) (xy 0.10391 -2.757652)) (layer B.SilkS) (width 0.01))
+      (xy -0.113933 -2.757629) (xy -0.013056 -2.757714) (xy 0 -2.757714) (xy 0.10391 -2.757652)) (layer F.SilkS) (width 0.01))
     (fp_poly (pts (xy 3.153595 1.966966) (xy 3.211021 2.004497) (xy 3.238719 2.038096) (xy 3.260662 2.099064)
       (xy 3.262405 2.147308) (xy 3.258457 2.211816) (xy 3.109686 2.276934) (xy 3.037349 2.310202)
       (xy 2.990084 2.336964) (xy 2.965507 2.360144) (xy 2.961237 2.382667) (xy 2.974889 2.407455)
@@ -1635,10 +1635,31 @@
       (xy -2.549664 1.91989) (xy -2.469928 1.911165) (xy -2.400256 1.919918)) (layer F.SilkS) (width 0.01))
   )
 
+  (module thingy:BACK-IMG (layer F.Cu) (tedit 5BC10F36) (tstamp 5BC10D8D)
+    (at 119.8 109)
+    (fp_text reference REF** (at -0.2 18.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value BACK-IMG (at 0 -11.9) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_poly (pts (xy 6.8 -2.4) (xy 8.9 -1.7) (xy 5.6 0.1) (xy 3.3 -1)
+      (xy 3.7 -2.6) (xy 5.2 -1.3) (xy 6.8 -3.5) (xy 6.8 -2.7)) (layer B.SilkS) (width 0.15))
+    (fp_text user "NOT FOR IDIOTS" (at 0 3.9) (layer B.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text user "SUPER DUPER PROJECT" (at 0.1 -3.8) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer B.SilkS) (width 0.15))
+    (fp_circle (center 0 0) (end 2.236068 0) (layer B.SilkS) (width 0.15))
+    (fp_circle (center 0 0) (end 1.414214 0) (layer B.SilkS) (width 0.15))
+  )
+
   (gr_text "WTFPL\nLICENCE" (at 105.66 77.72) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "thingy\n------\nPaweł\nTomaszewski" (at 127.29 89.2) (layer F.SilkS)
+  (gr_text "thingy v1.0\n------\nPaweł\nTomaszewski" (at 128.3 88.8) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 100.08 147.44) (end 100.08 69.6) (layer Edge.Cuts) (width 0.01))
